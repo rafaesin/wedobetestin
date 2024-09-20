@@ -1,0 +1,10 @@
+{
+    "release-type": "terraform-module",
+    "include-component-in-tag" : true,
+    "separate-pull-requests": true,
+    "packages": {
+        "stub": {
+            "package-name": "stub"
+        }
+    }
+}
