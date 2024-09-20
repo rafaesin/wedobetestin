@@ -3,7 +3,7 @@
     "include-component-in-tag" : true,
     "separate-pull-requests": true,
     "packages": {
-        "stub": {
+        "./stub": {
             "package-name": "stub"
         }
     }
