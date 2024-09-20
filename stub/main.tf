@@ -17,6 +17,11 @@ resource "random_integer" "random_int" {
   max = var.number_var
 }
 
+resource "random_integer" "random_int_different" {
+  min = 0
+  max = 20
+}
+
 output "submodule_output" {
   value = random_integer.random_int.result
 }
