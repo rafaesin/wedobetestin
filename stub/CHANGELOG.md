@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.1](https://github.com/rafaesin/wedobetestin/compare/stub-v0.1.0...stub-v0.1.1) (2024-09-23)
+
+
+### Bug Fixes
+
+* **stub:** Add doc ([122364c](https://github.com/rafaesin/wedobetestin/commit/122364c8bf72f40986db855a82c98d1bfe0a0038))
+
 ## 0.1.0 (2024-09-23)
 
 
