@@ -6,7 +6,8 @@
     "release-type": "terraform-module",
     "packages": {
         "stub": { "package-name": "stub" },
-        "buts": { "package-name": "buts" }
+        "buts": { "package-name": "buts" },
+        "modules/cool": { "package-name": "cool" }
     },
     "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json"
 }

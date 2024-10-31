@@ -23,10 +23,8 @@ jobs:
           #!/usr/bin/env bash
           set -euo pipefail
 
-          echo "release_created?"
-          echo ${{ steps.release.outputs.release_created }} ? 'true' : 'false'
-          echo "paths_released: ${{ steps.release.outputs.paths_released }}"
-          echo "prs_created?"
-          echo ${{ steps.release.outputs.prs_created }} ? 'true' : 'false'
-          echo "pr: ${{ steps.release.outputs.pr }}"
-          echo "prs: ${{ steps.release.outputs.prs }}"
+          echo 'release_created? ${{ steps.release.outputs.release_created }}'
+          echo 'paths_released: ${{ steps.release.outputs.paths_released }}'
+          echo 'prs_created? ${{ steps.release.outputs.prs_created }}'
+          echo 'pr: ${{ steps.release.outputs.pr }}'
+          echo 'prs: ${{ steps.release.outputs.prs }}'
