@@ -17,3 +17,13 @@ jobs:
       - uses: googleapis/release-please-action@v4
         id: release
         name: Version evaluation
+      - name: Zip and push
+        if: ${{ steps.release.outputs.release_created }}
+        run: |
+          #!/usr/bin/env bash
+          set -euo pipefail
+
+          echo "${{ steps.release.outputs.paths_released }}"
+          echo "${{ steps.release.outputs.prs_created }}"
+          echo "${{ steps.release.outputs.pr }}"
+          echo "${{ steps.release.outputs.prs }}"
