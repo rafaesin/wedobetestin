@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.0](https://github.com/rafaesin/wedobetestin/compare/buts-v0.2.1...buts-v0.3.0) (2024-10-31)
+
+
+### Features
+
+* **buts:** Add var ([241d8bf](https://github.com/rafaesin/wedobetestin/commit/241d8bfb12ee7ce00d6ecab1f4247736fae34650))
+
 ## [0.2.1](https://github.com/rafaesin/wedobetestin/compare/buts-v0.2.0...buts-v0.2.1) (2024-09-23)
 
 
